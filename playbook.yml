@@ -1,0 +1,7 @@
+---
+- name: Install Kafka & Zookeeper Role
+  hosts: all
+
+  roles:
+    - zookeeper
+    - kafka
